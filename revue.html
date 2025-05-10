@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revue Submit Form</title>
+    <link rel="shortcut icon" href="images/codinglogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="revue.css">
+</head>
+<body>
+    <div class="first-container">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <div class="heading">
+                <h1>Submit Revue</h1>
+            </div>
+            <input type="hidden" name="access_key" value="640170ea-ea3c-475f-87ee-f92035f0e3e6">
+            <div class="name">
+                <input type="text" placeholder="Enter Name" name="Name" required>
+            </div>
+            <div class="emailid">
+                <input type="email" placeholder="Enter Email" name="emailid" required>
+            </div>
+            <div class="textarea">
+                <textarea name="usertext" id="" required rows="7" cols="20" placeholder="Enter Your Message"></textarea>
+            </div>
+            <div class="submit-btn">
+                <button name="submitbutton" required>Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
